@@ -1,0 +1,26 @@
+{
+    "name": "prengicomponent/qrcode",
+    "description": "Qrcode component",
+    "type": "project",
+    "require": {
+        "php": ">=7.2",
+        "setasign/tfpdf": "1.25"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "^2.0@dev",
+        "yiisoft/yii2": "~2.0"
+    },
+    "license": "V&A Solution License",
+    "authors": [
+        {
+            "name": "Alexey Chabala",
+            "email": "chabalaalexey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"prengicomponent\\qrcode\\": "src/"
+		}
+	}
+}
